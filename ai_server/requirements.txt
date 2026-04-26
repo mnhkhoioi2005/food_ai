@@ -1,0 +1,20 @@
+# AI Server Requirements
+
+# FastAPI
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# AI/ML
+tensorflow==2.15.0
+torch==2.1.2
+torchvision==0.16.2
+pillow==10.2.0
+numpy==1.26.3
+opencv-python==4.9.0.80
+
+# ONNX Runtime (for production deployment)
+onnxruntime==1.16.3
+
+# Utils
+python-dotenv==1.0.0

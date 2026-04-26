@@ -1,0 +1,24 @@
+ĐỀ TÀI: XÂY DỰNG HỆ THỐNG NHẬN DIỆN VÀ GỢI Ý MÓN ĂN VIỆT NAM BẰNG AI
+1. Giới thiệu đề tài
+	Đề tài “Xây dựng hệ thống nhận diện và gợi ý món ăn Việt Nam bằng AI” nhằm phát triển một ứng dụng có khả năng nhận diện hình ảnh món ăn Việt Nam dựa trên công nghệ trí tuệ nhân tạo và học sâu. Hệ thống không chỉ giúp người dùng xác định món ăn qua ảnh mà còn gợi ý các món liên quan dựa trên đặc trưng, nguyên liệu hoặc sở thích người dùng. Đây là giải pháp hiện đại góp phần quảng bá ẩm thực Việt Nam và hỗ trợ trải nghiệm tìm kiếm món ăn thông minh hơn.
+Các chức năng chính:
+•  thứ nhất: upload hình ảnh món ăn chụp được từ hình ảnh vào và nó sẽ nhận diện được 
+•  thứ 2: mở camera và đưa hình món ăn vào nó sẽ nhận diệnCung cấp thông tin đa ngôn ngữ: tên món, vùng miền, nguyên liệu, cách ăn đúng, cảnh báo dị ứng
+•  Tìm kiếm món ăn bằng từ khóa và bộ lọc
+•  Gợi ý món ăn thông minh theo:
+o	Vị trí hiện tại (location-based)
+o	Khẩu vị cá nhân (cay/nhạt, món nước/khô, vegetarian,…)
+o	Lịch sử tương tác của người dùng
+
+2. Công nghệ sử dụng
+- Nhận diện món ăn: EfficientNet/ MobileNet/ Yolo/ Vision Transformer,..
+- Hệ thống gợi ý món ăn: Content-based filtering/ Collaborative Filtering
+- Dataset: Kaggle, Roboflow,...
+- AI Server: TensorFlow Serving / ONNX Runtime + FastAPI
+- Database: PostgreSQL
+- Map: GoogleMaps Platform
+- Phát triển theo web và app
+
+
+
+

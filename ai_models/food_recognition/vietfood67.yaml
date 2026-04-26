@@ -1,0 +1,154 @@
+# VietFood67 Dataset Configuration
+# Dataset: https://www.kaggle.com/datasets/thomasnguyen6868/vietfood68
+# Format: YOLO (images + labels with bounding boxes)
+
+# Dataset paths - CẬP NHẬT ĐƯỜNG DẪN DATASET CỦA BẠN
+path: D:/datasets/vietfood67  # Thư mục gốc của dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 68
+
+# Class names (68 classes including face detection)
+names:
+  0: banh_bao
+  1: banh_beo
+  2: banh_bot_loc
+  3: banh_can
+  4: banh_canh
+  5: banh_chung
+  6: banh_cuon
+  7: banh_da_lon
+  8: banh_duc
+  9: banh_gio
+  10: banh_khot
+  11: banh_mi
+  12: banh_pia
+  13: banh_trang_nuong
+  14: banh_xeo
+  15: bo_kho
+  16: bun_bo_hue
+  17: bun_cha
+  18: bun_dau_mam_tom
+  19: bun_mam
+  20: bun_moc
+  21: bun_rieu
+  22: bun_thit_nuong
+  23: ca_kho_to
+  24: canh_chua
+  25: cao_lau
+  26: chao_long
+  27: che
+  28: com_chay
+  29: com_ga
+  30: com_tam
+  31: face
+  32: ga_nuong
+  33: goi_cuon
+  34: goi_ga
+  35: hu_tieu
+  36: lau
+  37: mi_quang
+  38: mi_xao
+  39: nem_chua
+  40: nem_nuong
+  41: oc
+  42: pho
+  43: rau_muong_xao_toi
+  44: thit_kho
+  45: thit_nuong
+  46: xoi
+  47: che_ba_mau
+  48: banh_flan
+  49: sua_chua
+  50: sinh_to
+  51: nuoc_mia
+  52: tra_sua
+  53: ca_phe
+  54: nuoc_dua
+  55: kem
+  56: xoi_xeo
+  57: xoi_gac
+  58: bap_xao
+  59: khoai_lang_nuong
+  60: trung_vit_lon
+  61: chao
+  62: sup
+  63: mi_tom
+  64: com_rang
+  65: bun_cha_ca
+  66: banh_trang_tron
+  67: bot_chien
+
+# Vietnamese names for display
+names_vi:
+  banh_bao: Bánh Bao
+  banh_beo: Bánh Bèo
+  banh_bot_loc: Bánh Bột Lọc
+  banh_can: Bánh Căn
+  banh_canh: Bánh Canh
+  banh_chung: Bánh Chưng
+  banh_cuon: Bánh Cuốn
+  banh_da_lon: Bánh Da Lợn
+  banh_duc: Bánh Đúc
+  banh_gio: Bánh Giò
+  banh_khot: Bánh Khọt
+  banh_mi: Bánh Mì
+  banh_pia: Bánh Pía
+  banh_trang_nuong: Bánh Tráng Nướng
+  banh_xeo: Bánh Xèo
+  bo_kho: Bò Kho
+  bun_bo_hue: Bún Bò Huế
+  bun_cha: Bún Chả
+  bun_dau_mam_tom: Bún Đậu Mắm Tôm
+  bun_mam: Bún Mắm
+  bun_moc: Bún Mọc
+  bun_rieu: Bún Riêu
+  bun_thit_nuong: Bún Thịt Nướng
+  ca_kho_to: Cá Kho Tộ
+  canh_chua: Canh Chua
+  cao_lau: Cao Lầu
+  chao_long: Cháo Lòng
+  che: Chè
+  com_chay: Cơm Cháy
+  com_ga: Cơm Gà
+  com_tam: Cơm Tấm
+  face: Khuôn Mặt
+  ga_nuong: Gà Nướng
+  goi_cuon: Gỏi Cuốn
+  goi_ga: Gỏi Gà
+  hu_tieu: Hủ Tiếu
+  lau: Lẩu
+  mi_quang: Mì Quảng
+  mi_xao: Mì Xào
+  nem_chua: Nem Chua
+  nem_nuong: Nem Nướng
+  oc: Ốc
+  pho: Phở
+  rau_muong_xao_toi: Rau Muống Xào Tỏi
+  thit_kho: Thịt Kho
+  thit_nuong: Thịt Nướng
+  xoi: Xôi
+  che_ba_mau: Chè Ba Màu
+  banh_flan: Bánh Flan
+  sua_chua: Sữa Chua
+  sinh_to: Sinh Tố
+  nuoc_mia: Nước Mía
+  tra_sua: Trà Sữa
+  ca_phe: Cà Phê
+  nuoc_dua: Nước Dừa
+  kem: Kem
+  xoi_xeo: Xôi Xéo
+  xoi_gac: Xôi Gấc
+  bap_xao: Bắp Xào
+  khoai_lang_nuong: Khoai Lang Nướng
+  trung_vit_lon: Trứng Vịt Lộn
+  chao: Cháo
+  sup: Súp
+  mi_tom: Mì Tôm
+  com_rang: Cơm Rang
+  bun_cha_ca: Bún Chả Cá
+  banh_trang_tron: Bánh Tráng Trộn
+  bot_chien: Bột Chiên
