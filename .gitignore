@@ -1,17 +1,80 @@
+# ============================================
 # Python
+# ============================================
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
 *.pyd
 
-# Virtual Environment
+# ============================================
+# Virtual Environments
+# ============================================
 venv/
+.venv/
+env/
+ENV/
+ven/
+.env.local
 backend/venv/
+ai_server/venv/
 ai_server/ven/
+ai_models/food_recognition/__pycache__/
 
-# Environment variables
+# ============================================
+# Environment Variables (NEVER commit these)
+# ============================================
 .env
+*.env
 
-# IDE
+# ============================================
+# Node.js / Frontend
+# ============================================
+node_modules/
+frontend/dist/
+frontend/.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================
+# AI Model Weights (too large for git)
+# ============================================
+ai_models/trained_weights/*.pt
+ai_models/trained_weights/*.h5
+ai_models/trained_weights/*.onnx
+ai_models/trained_weights/*.pth
+ai_models/exports/*.pt
+ai_models/exports/*.onnx
+ai_models/exports/*.tflite
+*.rar
+
+# ============================================
+# Uploaded files
+# ============================================
+backend/uploads/recognition/*
+!backend/uploads/recognition/.gitkeep
+
+# ============================================
+# IDE & OS
+# ============================================
 .vscode/
 .idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Logs & Temp
+# ============================================
+*.log
+*.tmp
+*.cache
+runs/
